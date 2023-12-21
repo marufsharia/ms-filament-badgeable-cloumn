@@ -1,0 +1,41 @@
+{
+    "name": "marufsharia/ms-filament-badgeable-cloumn",
+    "description": "Filament Tables column to append and prepend badges.",
+    "keywords": [
+        "marufsharia",
+        "laravel",
+        "filament",
+        "ms-filament-badgeable-column",
+        "badger"
+    ],
+    "homepage": "https://github.com/marufsharia/ms-filament-badgeable-cloumn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "marufsharia",
+            "email": "marufsharia@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarufSharia\\MSFilamentBadgeableColumn\\": "src"
+        }
+    },
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarufSharia\\MSFilamentBadgeableColumn\\BadgeableColumnServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
