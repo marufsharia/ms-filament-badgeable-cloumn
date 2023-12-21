@@ -1,5 +1,5 @@
 @php
-    use MarufSHaria\MSFilamentBadgeableColumn\Enums\BadgeSize;
+    use MarufSharia\MSFilamentBadgeableColumn\Enums\BadgeSize;
 @endphp
 
 @if (! $isHidden())
